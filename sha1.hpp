@@ -17,14 +17,11 @@
         -- Eugene Hopkinson <slowriot at voxelstorm dot com>
 */
 
-#ifndef SHA1_HPP
-#define SHA1_HPP
-
+#pragma once
 
 #include <cstdint>
 #include <iostream>
 #include <string>
-
 
 class SHA1
 {
@@ -40,6 +37,3 @@ private:
     std::string buffer;
     uint64_t transforms;
 };
-
-
-#endif /* SHA1_HPP */
